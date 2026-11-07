@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 :root {
   --paper: #F4EFE6;
@@ -27,7 +25,6 @@ body {
   font-feature-settings: "tnum";
 }
 
-/* Fraunces: pakai axis WONK untuk sedikit karakter di display type */
 .font-display {
   font-family: var(--font-fraunces), Georgia, serif;
   font-variation-settings: "SOFT" 30, "WONK" 1, "opsz" 72;
