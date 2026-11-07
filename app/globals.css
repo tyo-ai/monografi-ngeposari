@@ -1,27 +1,38 @@
 @import "tailwindcss";
+@config "../tailwind.config.ts";
 
 :root {
-  --primary: #1f4e38;
-  --primary-dark: #143526;
-  --accent: #a9492a;
-  --bg-page: #f1f5f9;
-  --card-bg: #ffffff;
-  --border-color: #e2e8f0;
-  --text-main: #1e293b;
-  --text-muted: #64748b;
+  --paper: #F4EFE6;
+  --paper-dark: #EAE3D3;
+  --ink: #1A1A18;
+  --forest: #2C4A3B;
+  --terracotta: #A9492A;
+  --stone: #5F5A55;
+  --rule: #D4CCBD;
+}
+
+html {
+  background-color: var(--paper);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
-  background-color: #f1f5f9;
-  color: #1e293b;
   font-family: var(--font-ibm-plex-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  -webkit-font-smoothing: antialiased;
 }
 
 .tabular {
   font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
 }
 
+/* Fraunces: pakai axis WONK untuk sedikit karakter di display type */
 .font-display {
   font-family: var(--font-fraunces), Georgia, serif;
+  font-variation-settings: "SOFT" 30, "WONK" 1, "opsz" 72;
+}
+
+::selection {
+  background-color: var(--terracotta);
+  color: var(--paper);
 }
