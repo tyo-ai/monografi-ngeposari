@@ -113,8 +113,7 @@ export default function NavbarPortal() {
           })}
         </div>
 
-        <div className="hidden lg:flex items-center gap-3 font-mono text-xs text-emerald-200 shrink-0">
-          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+        <div className="hidden lg:flex items-center gap-2 font-mono text-xs text-emerald-200/90 shrink-0">
           <span>Kalurahan Ngeposari · Gunungkidul</span>
         </div>
       </div>
