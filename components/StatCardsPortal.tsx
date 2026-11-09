@@ -53,7 +53,6 @@ export default function StatCardsPortal() {
           </div>
           <div className="mt-3 pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] font-mono text-slate-400">
             <span>{item.desc}</span>
-            <span className="text-emerald-700 font-bold">●</span>
           </div>
         </div>
       ))}
