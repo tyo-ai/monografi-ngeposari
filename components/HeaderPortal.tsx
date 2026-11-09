@@ -19,13 +19,10 @@ export default function HeaderPortal() {
             <span>·</span>
             <span>Kode Wilayah: 34.03.02.2004</span>
           </div>
-          <div className="flex items-center gap-2">
-            <span className="bg-emerald-700/80 text-white px-2.5 py-1 text-[11px] font-semibold rounded-md">
-              Kalurahan Budaya DIY
-            </span>
-            <span className="bg-amber-700/80 text-white px-2.5 py-1 text-[11px] font-semibold rounded-md">
-              Kampung Siaga Bencana
-            </span>
+          <div className="flex items-center gap-3 text-emerald-200">
+            <span>Kalurahan Budaya DIY</span>
+            <span>·</span>
+            <span>Kampung Siaga Bencana</span>
           </div>
         </div>
       </div>
