@@ -53,6 +53,13 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     plate: "Pl. 06",
     desc: "Warga berpakaian adat Jawa mengarak gunungan hasil bumi dalam prosesi bersih desa tahunan.",
   },
+  {
+    src: "/images/kangkung-a.jpg",
+    alt: "Gapura Padukuhan Kangkung A",
+    title: "Gapura Masuk Padukuhan Kangkung A",
+    plate: "Pl. 07",
+    desc: "Salah satu dari 19 gapura padukuhan Kalurahan Ngeposari — Kangkung A berdiri di tepi jalan utama, menandai wilayah seluas 60,78 hektare.",
+  },
 ];
 
 interface LightboxContextType {
