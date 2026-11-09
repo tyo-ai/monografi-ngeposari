@@ -5,11 +5,11 @@ import PhotoLightbox, { GalleryPhoto } from "./PhotoLightbox";
 
 export const GALLERY_PHOTOS: GalleryPhoto[] = [
   {
-    src: "/images/bentang-alam.jpg",
-    alt: "Bentang Alam Karst",
-    title: "Bentang Perbukitan Karst & Lahan Terasering",
+    src: "/images/kangkung-a.jpg",
+    alt: "Gapura Masuk Padukuhan Kangkung A",
+    title: "Gerbang Masuk Padukuhan Kangkung A",
     plate: "Pl. 00",
-    desc: "Lanskap perbukitan kapur karst dan lahan tadah hujan Semanu pada ketinggian ± 800 mdpl.",
+    desc: "Gerbang identitas batas wilayah Padukuhan Kangkung A dengan ornamen khas dan pondasi susunan batu kali karst di tepi jalan penghubung padukuhan.",
   },
   {
     src: "/images/geografi-karst.jpg",
@@ -52,13 +52,6 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     title: "Kirab Gunungan Hasil Bumi Tradisi Rasulan",
     plate: "Pl. 06",
     desc: "Warga berpakaian adat Jawa mengarak gunungan hasil bumi dalam prosesi bersih desa tahunan.",
-  },
-  {
-    src: "/images/kangkung-a.jpg",
-    alt: "Gapura Padukuhan Kangkung A",
-    title: "Gapura Masuk Padukuhan Kangkung A",
-    plate: "Pl. 07",
-    desc: "Salah satu dari 19 gapura padukuhan Kalurahan Ngeposari — Kangkung A berdiri di tepi jalan utama, menandai wilayah seluas 60,78 hektare.",
   },
 ];
 

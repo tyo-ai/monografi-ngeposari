@@ -47,28 +47,16 @@ export default function Perkenalan() {
           </div>
         </div>
 
-        {/* Kolom Kanan: Dua Foto + Identitas Monografi */}
+        {/* Kolom Kanan: Pelat Foto Gerbang Padukuhan & Ringkasan Identitas */}
         <div className="lg:col-span-5 space-y-4">
-          {/* Foto 1: Bentang Alam Karst — gambaran wilayah */}
           <ClickablePhoto
             index={0}
-            src="/images/bentang-alam.jpg"
-            alt="Bentang alam perbukitan karst dan lahan ladang di Kalurahan Ngeposari"
-            plate="Pl. 00"
-            captionTitle="Bentang Karst & Lahan Ladang"
-            captionRight="Elevasi ± 800 mdpl"
-            maxHeight="max-h-[220px]"
-          />
-
-          {/* Foto 2: Gapura Kangkung A — penanda padukuhan */}
-          <ClickablePhoto
-            index={7}
             src="/images/kangkung-a.jpg"
-            alt="Gapura masuk Padukuhan Kangkung A, Kalurahan Ngeposari"
-            plate="Pl. 07"
+            alt="Gapura gerbang masuk Padukuhan Kangkung A Kalurahan Ngeposari"
+            plate="Pl. 00"
             captionTitle="Gapura Padukuhan Kangkung A"
-            captionRight="19 Padukuhan"
-            maxHeight="max-h-[180px]"
+            captionRight="Wilayah VI · 60,78 Ha"
+            maxHeight="max-h-[360px]"
           />
 
           {/* Identitas Monografi */}
