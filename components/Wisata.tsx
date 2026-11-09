@@ -1,3 +1,5 @@
+"use client";
+
 import Section from "./Section";
 import ClickablePhoto from "./ClickablePhoto";
 import { WISATA_DATA } from "@/app/data";

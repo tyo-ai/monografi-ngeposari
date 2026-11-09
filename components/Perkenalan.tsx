@@ -1,3 +1,5 @@
+"use client";
+
 import Section from "./Section";
 import ClickablePhoto from "./ClickablePhoto";
 

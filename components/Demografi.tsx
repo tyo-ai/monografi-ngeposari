@@ -1,3 +1,5 @@
+"use client";
+
 import Section from "./Section";
 import Row from "./Row";
 import ClickablePhoto from "./ClickablePhoto";
