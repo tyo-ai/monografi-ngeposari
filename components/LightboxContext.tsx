@@ -12,11 +12,11 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     desc: "Gerbang identitas batas wilayah Padukuhan Kangkung A dengan ornamen khas dan pondasi susunan batu kali karst di tepi jalan penghubung padukuhan.",
   },
   {
-    src: "/images/geografi-karst.jpg",
-    alt: "Topografi Semanu",
-    title: "Morfologi Karst & Lembah Pertanian Semanu",
+    src: "/images/peta-ngeposari.jpg",
+    alt: "Peta Wilayah Kalurahan Ngeposari Skala 1:18.000",
+    title: "Peta Batas Administrasi & Tata Ruang Padukuhan",
     plate: "Pl. 01",
-    desc: "Kedudukan wilayah Kalurahan Ngeposari pada koordinat 7.99° LS · 110.67° BT.",
+    desc: "Peta kartografi resmi wilayah Kalurahan Ngeposari skala 1:18.000 memuat tata batas 19 padukuhan, persebaran sumber mata air, telaga, dan goa karst.",
   },
   {
     src: "/images/balai-kalurahan.jpg",

@@ -14,16 +14,16 @@ export default function Geografi() {
       subtitle="Kedudukan & Batas Wilayah"
     >
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-        {/* Kolom Kiri: Foto Morfologi Karst & Jarak Tempuh */}
+        {/* Kolom Kiri: Peta Wilayah & Jarak Tempuh */}
         <div className="lg:col-span-6 space-y-6">
           <ClickablePhoto
             index={1}
-            src="/images/geografi-karst.jpg"
-            alt="Morfologi bentang alam perbukitan karst dan lembah pertanian Semanu"
+            src="/images/peta-ngeposari.jpg"
+            alt="Peta wilayah administratif Kalurahan Ngeposari skala 1:18.000"
             plate="Pl. 01"
-            captionTitle="Morfologi Perbukitan Karst & Lembah Pertanian"
-            captionRight="7.99° LS · 110.67° BT"
-            maxHeight="max-h-[320px]"
+            captionTitle="Peta Tata Batas & Wilayah Padukuhan"
+            captionRight="Skala 1 : 18.000"
+            maxHeight="max-h-[360px]"
           />
 
           <div>
