@@ -17,16 +17,16 @@ export default function Pemerintahan() {
       subtitle="Struktur Pamong & Padukuhan"
     >
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-        {/* Kolom Kiri: Foto Balai Kalurahan & Struktur Pamong */}
+        {/* Kolom Kiri: Foto Papan Nama Kalurahan & Struktur Pamong */}
         <div className="lg:col-span-5 space-y-6">
           <ClickablePhoto
             index={2}
-            src="/images/balai-kalurahan.jpg"
-            alt="Kompleks Balai Kalurahan berarsitektur Joglo tradisional"
+            src="/images/kantor-kalurahan.jpg"
+            alt="Papan nama resmi Kantor Kalurahan Ngeposari beraksara Jawa"
             plate="Pl. 02"
-            captionTitle="Balai Kalurahan & Kantor Pamong"
-            captionRight="19 Padukuhan"
-            maxHeight="max-h-[300px]"
+            captionTitle="Papan Nama Resmi Kantor Kalurahan"
+            captionRight="Jl. Wonosari - Baran KM 09"
+            maxHeight="max-h-[340px]"
           />
 
           <div>

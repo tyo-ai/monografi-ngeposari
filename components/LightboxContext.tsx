@@ -19,11 +19,11 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     desc: "Peta kartografi resmi wilayah Kalurahan Ngeposari skala 1:18.000 memuat tata batas 19 padukuhan, persebaran sumber mata air, telaga, dan goa karst.",
   },
   {
-    src: "/images/balai-kalurahan.jpg",
-    alt: "Balai Kalurahan",
-    title: "Kompleks Balai Kalurahan & Kantor Pamong",
+    src: "/images/kantor-kalurahan.jpg",
+    alt: "Papan Nama Kantor Kalurahan Ngeposari",
+    title: "Plang Nama Resmi & Kantor Kalurahan Ngeposari",
     plate: "Pl. 02",
-    desc: "Pusat pelayanan administrasi 31 pamong dan musyawarah 19 padukuhan berarsitektur Joglo.",
+    desc: "Plang nama resmi Kalurahan Ngeposari beraksara Jawa di Jl. Wonosari - Baran KM 09 No. 100, mencantumkan lembaga desa (BPK, LPMK, PKK, Karang Taruna, Gapoktan, BUMKal).",
   },
   {
     src: "/images/demografi-petani.jpg",
